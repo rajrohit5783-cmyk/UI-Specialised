@@ -1,0 +1,38 @@
+*{
+    /* background-color:peachpuff; */
+    margin: 0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+button{
+    color:crimson;
+    background-color:beige;
+    border: 2;
+}
+.red{
+    color: red;
+    background-color: lightgreen;
+}
+
+.blue{
+    color: blue;
+    background-color:lightpink;
+}
+
+.pink{
+    color: pink;
+    background-color:lightseagreen;
+}
+
+#brown{
+    color:black;
+}
+nav{
+    border-bottom: 1px solid black; 
+}
+
+div{
+    `
+}

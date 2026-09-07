@@ -1,0 +1,21 @@
+*{
+    background-color:whitesmoke;
+    margin: 10;
+    padding:20;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+button {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input:hover {
+    border-color: blue;
+}
+
