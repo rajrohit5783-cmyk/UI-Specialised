@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded:regular" rel="stylesheet" />
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+    <hr>
+
+    <div id="first">
+        <form action="">
+
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter Your Name" id="name" minlength="6" maxlength="12" required>
+
+            <br><br>
+
+            <label for="email">Email Id:</label>
+            <input type="email" placeholder="Enter Your Email Id" id="email" required>
+
+            <br><br>
+
+            <label for="mob">Mobile No:</label>
+            <input type="tel" placeholder="Enter Your Mobile No." id="mob" pattern="[0-9]{10}" required>
+
+            <br><br>
+
+            <label for="pass">Password:</label>
+            <input type="password" placeholder="Enter Your Password" id="pass" minlength="10" maxlength="25" required>
+
+            <br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" placeholder="Enter Your Age" id="age" name="age" min="18" max="60" required>
+
+            <br><br>
+
+            <label>Gender:</label>
+
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <label id="st" for="state">State:</label>
+            <select name="state" id="state" required>
+                <option value="">Select State</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="UP">UP</option>
+            </select>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
