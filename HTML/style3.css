@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: black; */
+
+
+}
+
+.navbar img{
+    border-radius: 5px;
+    width: 200px;
+    height: 140px;
+    
+}
+
+
+.navbar{
+    display: flex;
+    border: 2px solid brown ;
+}
