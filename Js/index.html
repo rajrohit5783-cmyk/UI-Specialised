@@ -1,11 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="start-screen visible"></div>
+      <h2>Welcome to our Quiz!!</h2>
+      <button>Start Quiz</button>
+
+
+      <div class="question-screen">
+        <div class="scores">
+            <p class=" total-question">Total question : 5</p>
+            <p class="current-score" >Score: <span class="score">0</span></p>
+        </div>
+
+        <div class="question">
+            <!-- question json file -->
+        </div>
+        
+        <div class="progress-bar">
+            <!-- dynamic change -->
+        </div>
+      </div>
+
+      <div class="result-screen">
+        <p>Score : <span class="total-score">0</span></p>
+        <p>text</p>
+
+      </div>
+    </div>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
