@@ -56,10 +56,44 @@
 // console.log(typeof data_new);
 
 
-function multiply(a,b) {
-        return a*b;  }
+// function greet(){
+//     return "Hello"
+// };
 
-Multiplication = multiply(2,6);
-type_cast = Boolean(Multiplication);
-console.log(typeof type_cast);
-console.log(type_cast);
+// function multiply(a,b) {
+//         return {};  
+// };
+
+// Multiplication = multiply(2,6);
+// console.log(Multiplication);
+
+// type_cast = String(Multiplication);
+// console.log(typeof type_cast);
+// console.log(type_cast);
+
+
+// Name = "Rohit";
+// age = 20;
+// C = "My name is " + Name + " and my age is " + age;
+// console.log(C )
+// console.log(`My name is ${Name} and my age is ${age}`);
+
+//Type Conversion (Implicit)
+
+// let firstName = "Rohit ";
+// let lastName = "Raj";
+
+// console.log(firstName + lastName);
+
+// console.log("2" + 1 + 46);
+
+
+// let a = {};
+// let b = String(a);
+// console.log(typeof a);
+// console.log(typeof b);
+
+// console.log(1 + 45 + "1" + false + {});
+
+// == and ===
+
