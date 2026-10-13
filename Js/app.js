@@ -270,7 +270,26 @@
 // console.log(data4);
 // console.log(data);
 
+// let numbers = [10,2,54,65,24,45];
+// // data = numbers.toString();
+// // console.log(data);
+// // console.log(typeof data);
+
+// // data2 = data.pop();
+// // console.log(data2);
+// data = numbers.sort((a,b)=>{
+//     return a-b;
+// });
+// console.log(typeof data);
+// console.log(numbers);
+
 let numbers = [10,2,54,65,24,45];
-data = numbers.toString();
+// numbers.forEach(nums)=>{};
+data = numbers.map((num)=> {
+    // console.log(num+2);
+    return num+2;
+});
+
+
 console.log(data);
-console.log(typeof data);
+console.log(numbers);
