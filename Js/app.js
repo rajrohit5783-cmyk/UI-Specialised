@@ -167,15 +167,23 @@
 // }
 // console.log(a);
 
-let numbers = [2,3,4,5,6,7,8,9,10];
-console.log(numbers.length);
-data = numbers.push(34,35,36);
+// let numbers = [2,3,4,5,6,7,8,9,10];
+// console.log(numbers.length);
+// data = numbers.push(34,35,36);
+// console.log(numbers);
+// console.log(data);
+
+// data1 = numbers.pop();
+// console.log(numbers);
+// console.log(data1);
+
+let numbers = [10,20,30,40];
+data = numbers.shift(2);
+data2 = numbers.unshift(50); 
 console.log(numbers);
 console.log(data);
+console.log(data2);
 
-data1 = numbers.pop();
-console.log(numbers);
-console.log(data1);
 
 
 
