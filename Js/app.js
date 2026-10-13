@@ -251,7 +251,22 @@
 
 let numbers = [10,2,54,65,24,45];
 let numbers2 = ['a','b','c'];
+let numbers3 = [24,454,54,34];
 
-data = numbers.concat(numbers2);
+data = numbers.concat(numbers2,numbers3);
 console.log(data);
 console.log(typeof data);
+
+console.log(data[1])
+
+data2 = data.pop();
+console.log(data2);
+console.log(data);
+data3 = data.push(33);
+console.log(data3);
+console.log(data);
+
+data4 = data.shift(23);
+console.log(data4);
+console.log(data);
+
