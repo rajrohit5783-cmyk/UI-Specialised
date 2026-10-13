@@ -236,3 +236,15 @@
 // })
 
 // console.log(data);
+
+
+let numbers = [10,20,30,40,50];
+// let numbersone = [23,45,64,68,67];
+
+// data = numbers + numbersone;
+// console.log(data)
+
+data = numbers.join(';');
+
+console.log(data);
+console.log(typeof data);
