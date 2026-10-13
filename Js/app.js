@@ -39,7 +39,8 @@
 // console.log(data);
 
 
-//TypeOf Function
+// TypeOf Function
+
 // let Name = "Rohit";
 // let A = null;
 // let B = NaN;
@@ -96,4 +97,85 @@
 // console.log(1 + 45 + "1" + false + {});
 
 // == and ===
+
+// console.log(2==2);
+// console.log(2=="2ab");
+// console.log(2==="2");
+
+
+// console.log(null == 0);
+
+
+// let a = 4;
+
+// if (a%2 == 0){
+//     console.log(`${a} is an even number`);
+// }
+// else{
+//     console.log(`${a} is an Odd number`)
+// }
+
+// let n = 556848;
+// let r = 0;
+
+// while (n > 0) {
+//     let d = n % 10;
+//     r = r * 10 + d;
+
+//     if (n % 10 === n) {
+//         n = 0;
+//     } 
+//     else {
+//         n = (n - d) / 10;
+//     }
+// }
+// console.log(r);
+
+// let n = 20;
+// if (n % 2 == 0 && n % 3 == 0 && n%4 != 0) {
+//     console.log("Num is divisible 2 and 3 but not 4");
+// } 
+// else if(n % 2 == 0 && n % 3 == 0 && n%4 == 0) {
+//     console.log("Num divisible by 4");
+// }
+// else{
+//     console.log("Num is not divisible by 2,3,4")
+// }
+
+// studentMarks =[3456,88,86];
+// console.log(typeof studentMarks);
+
+// console.log(studentMarks[0]);
+// studentMarks[1] = 23;
+// console.log(studentMarks);
+// console.log(studentMarks[:1]) Slicing Doesn't work like this in JS
+
+// newData = studentMarks.slice(0,2)
+// console.log(newData);
+// data = studentMarks.pop();
+// console.log(data);
+// data2 = studentMarks.pop();
+// console.log(data2);
+// data3 = studentMarks.pop();
+// console.log(data3);
+// studentMarks.splice(0,0,90);
+// console.log(studentMarks);
+
+// let a = [1345, 26543, 3343, 44232, 5435];
+// for (let i = 0; i < a.length; i++) {
+//     a[i] = a[i] + 2;
+// }
+// console.log(a);
+
+let numbers = [2,3,4,5,6,7,8,9,10];
+console.log(numbers.length);
+data = numbers.push(34,35,36);
+console.log(numbers);
+console.log(data);
+
+data1 = numbers.pop();
+console.log(numbers);
+console.log(data1);
+
+
 
