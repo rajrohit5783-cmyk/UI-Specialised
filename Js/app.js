@@ -224,3 +224,15 @@
 
 // check(A);
 
+// let numbers = [23,35,56,65,78,12];
+// // data = numbers.find(function(numbers){
+// //     return numbers > 50
+// // });
+
+// // console.log(data);
+
+// data = numbers.find(()=>{
+//     return numbers < 10;
+// })
+
+// console.log(data);
