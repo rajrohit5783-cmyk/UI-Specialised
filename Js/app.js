@@ -283,13 +283,41 @@
 // console.log(typeof data);
 // console.log(numbers);
 
-let numbers = [10,2,54,65,24,45];
+// let numbers = [10,2,54,65,24,45];
 // numbers.forEach(nums)=>{};
-data = numbers.map((num)=> {
-    // console.log(num+2);
-    return num+2;
-});
+// data = numbers.map((num)=> {
+    //     // console.log(num+2);
+    //     return num+2;
+    // });
+    
+    
+    // console.log(data);
+    // console.log(numbers);
+
+// let numbers = [10,2,54,65,24,45];
+// data = numbers.filter((num)=>{
+// return num > 30;
+// })
+// console.log(data);
+// console.log(numbers);
+
+// console.log(a);
+// var a = 67;
+
+//Hoisting
+// greet();
+
+// function greet(){
+//     console.log(a);
+//     const a = 34;
+// }
 
 
-console.log(data);
-console.log(numbers);
+//Array Destructuring
+
+let arr = [10, 20, 30, 40, 50];
+
+let [a, b] = arr.slice(1, 4);
+
+console.log(a);
+console.log(b); 
