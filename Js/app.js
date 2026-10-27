@@ -352,14 +352,41 @@
 // delete student.age;
 // console.log(student)
 
-let data = new Object();
+// let data = new Object();
 
-data.name = "Rohit";
-data.greet = function(){
-    console.log("Hello");
+// data.name = "Rohit";
+// data.greet = function(){
+//     console.log("Hello");
+// }
+// console.log(data);
+// console.log(data["greet"]());
+
+// delete data.name;
+// console.log(data);
+
+a = 10;
+
+function first() {
+    b = 20;
+    second();
+    console.log("First function");
 }
-console.log(data);
-console.log(data["greet"]());
 
-delete data.name;
-console.log(data);
+function second() {
+    c = 30;
+    console.log("Second function");
+}
+
+first();
+
+console.log("Global execution");
+
+console.log(this);
+
+
+function greet(){
+    console.log(this);
+}
+
+greet();
+
