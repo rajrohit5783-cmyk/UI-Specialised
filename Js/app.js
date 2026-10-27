@@ -315,9 +315,51 @@
 
 //Array Destructuring
 
-let arr = [10, 20, 30, 40, 50];
+// let arr = [10, 20, 30, 40, 50];
 
-let [a, b] = arr.slice(1, 4);
+// let [a, b] = arr.slice(1, 4);
 
-console.log(a);
-console.log(b); 
+// console.log(a);
+// console.log(b); 
+
+// Objects 
+
+// let student = {
+//     name: "Rohit",
+//     age: 20,
+//     course: "B-Tech",
+//     // name: "abcd",
+//     // "name": "rohan",
+//     greet: function(){
+//         console.log("hello");
+//     }
+// };
+// console.log(student.name);
+// console.log(student.age);
+// console.log(student.greet());
+
+// console.log(student["greet()"]);
+
+// student.name = "Rohan";
+// console.log(student)
+
+// student.greet = function(){
+//     console.log("Fn update")
+//     }
+
+// console.log(student.greet())
+
+// delete student.age;
+// console.log(student)
+
+let data = new Object();
+
+data.name = "Rohit";
+data.greet = function(){
+    console.log("Hello");
+}
+console.log(data);
+console.log(data["greet"]());
+
+delete data.name;
+console.log(data);
